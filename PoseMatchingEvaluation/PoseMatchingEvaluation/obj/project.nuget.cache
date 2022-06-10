@@ -1,0 +1,106 @@
+{
+  "version": 2,
+  "dgSpecHash": "SCd1S+BNTvaAUHEh13R8b7gXndDvijz5wHgTaGXcbdXdizWZskZaadGvODnxBkx57zGG88ieDnCRlJYBdP2tzg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\beata.haracewiat\\Desktop\\Thesis\\PoseMatchingEvaluation\\PoseMatchingEvaluation\\PoseMatchingEvaluation.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\accord\\3.8.0\\accord.3.8.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\accord.extensions.core\\3.0.1\\accord.extensions.core.3.0.1.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\accord.extensions.math\\3.0.1\\accord.extensions.math.3.0.1.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\accord.math\\3.8.0\\accord.math.3.8.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\accord.statistics\\3.0.2\\accord.statistics.3.0.2.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\apache.arrow\\2.0.0\\apache.arrow.2.0.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\dotimaging.primitives2d\\2.5.3\\dotimaging.primitives2d.2.5.3.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\extreme.numerics\\8.1.6\\extreme.numerics.8.1.6.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\microsoft.data.analysis\\0.19.1\\microsoft.data.analysis.0.19.1.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\microsoft.ml.dataview\\1.7.1\\microsoft.ml.dataview.1.7.1.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.0\\system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.2\\system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\unity3d.unityengine\\2018.3.5.1\\unity3d.unityengine.2018.3.5.1.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\unityengine\\1.0.0\\unityengine.1.0.0.nupkg.sha512",
+    "C:\\Users\\beata.haracewiat\\.nuget\\packages\\unitytechnologies.unityengine\\2020.2.2.1\\unitytechnologies.unityengine.2020.2.2.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Accord.Extensions.Core 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Accord.Extensions.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Accord.Extensions.Math 3.0.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Accord.Extensions.Math",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Accord.Statistics 3.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Accord.Statistics",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'DotImaging.Primitives2D 2.5.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "DotImaging.Primitives2D",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Unity3D.UnityEngine 2018.3.5.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Unity3D.UnityEngine",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UnityEngine 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "UnityEngine",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UnityTechnologies.UnityEngine 2020.2.2.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "UnityTechnologies.UnityEngine",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

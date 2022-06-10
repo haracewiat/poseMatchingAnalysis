@@ -1,0 +1,368 @@
+[
+    {
+        "Name": "blue",
+        "JointPairRules": [
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftElbow"
+                },
+                "PossiblePositions": [ "TopLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftElbow",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "TopLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightElbow"
+                },
+                "PossiblePositions": [ "TopRight" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightElbow",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "TopRight" ]
+            }
+        ],
+        "RawCameraData": {
+            "Landmarks": {
+                "Nose": [ 520, 115, -78 ],
+                "LeftEye": [ 536, 106, -69 ],
+                "RightEye": [ 508, 107, -69 ],
+                "LeftEar": [ 553, 121, -25 ],
+                "RightEar": [ 496, 122, -23 ],
+                "LeftShoulder": [ 605, 205, -2 ],
+                "RightShoulder": [ 448, 203, -14 ],
+                "LeftElbow": [ 700, 138, 10 ],
+                "RightElbow": [ 353, 130, 2 ],
+                "LeftWrist": [ 785, 59, 0 ],
+                "RightWrist": [ 264, 54, -36 ],
+                "LeftHip": [ 573, 475, 2 ],
+                "RightHip": [ 478, 472, -2 ],
+                "LeftKnee": [ 558, 645, -15 ],
+                "RightKnee": [ 475, 652, -9 ],
+                "LeftAnkle": [ 531, 781, 86 ],
+                "RightAnkle": [ 464, 805, 80 ]
+            }
+        },
+        "ImportantJoints": [
+            "LeftWrist",
+            "RightWrist"
+        ]
+    },
+    {
+        "Name": "pink",
+        "ImagePath": "./RawAssets/PoseImages/pink.png",
+        "JointPairRules": [
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftElbow"
+                },
+                "PossiblePositions": [ "Left", "TopLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "Above", "TopLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftElbow",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "TopRight", "Right" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightElbow"
+                },
+                "PossiblePositions": [ "Right", "TopRight" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "Above", "TopRight" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightElbow",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "TopLeft", "Left" ]
+            }
+        ],
+        "RawCameraData": {
+            "Landmarks": {
+                "Nose": [ 532, 134, -69 ],
+                "LeftEye": [ 548, 124, -61 ],
+                "RightEye": [ 519, 124, -62 ],
+                "LeftEar": [ 563, 136, -16 ],
+                "RightEar": [ 505, 135, -20 ],
+                "LeftShoulder": [ 601, 217, 12 ],
+                "RightShoulder": [ 464, 213, -7 ],
+                "LeftElbow": [ 686, 163, 35 ],
+                "RightElbow": [ 374, 142, -7 ],
+                "LeftWrist": [ 589, 109, 97 ],
+                "RightWrist": [ 469, 101, 25 ],
+                "LeftHip": [ 580, 469, 2 ],
+                "RightHip": [ 488, 469, -1 ],
+                "LeftKnee": [ 570, 642, -25 ],
+                "RightKnee": [ 476, 647, 3 ],
+                "LeftAnkle": [ 556, 780, 60 ],
+                "RightAnkle": [ 464, 790, 86 ]
+            }
+        },
+        "ImportantJoints": [
+            "LeftWrist",
+            "RightWrist"
+        ]
+    },
+    {
+        "Name": "red",
+        "ImagePath": "./RawAssets/PoseImages/red.png",
+        "JointPairRules": [
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftElbow"
+                },
+                "PossiblePositions": [ "Left" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftElbow",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "Left" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightElbow"
+                },
+                "PossiblePositions": [ "Right" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightElbow",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "Right" ]
+            }
+        ],
+        "RawCameraData": {
+            "Landmarks": {
+                "Nose": [ 555, 155, -53 ],
+                "LeftEye": [ 569, 144, -47 ],
+                "RightEye": [ 543, 146, -46 ],
+                "LeftEar": [ 585, 154, -13 ],
+                "RightEar": [ 531, 156, -8 ],
+                "LeftShoulder": [ 630, 238, 6 ],
+                "RightShoulder": [ 490, 240, 6 ],
+                "LeftElbow": [ 717, 273, 30 ],
+                "RightElbow": [ 396, 271, 13 ],
+                "LeftWrist": [ 822, 297, 27 ],
+                "RightWrist": [ 299, 289, -19 ],
+                "LeftHip": [ 601, 477, 0 ],
+                "RightHip": [ 515, 473, 0 ],
+                "LeftKnee": [ 592, 636, -21 ],
+                "RightKnee": [ 510, 632, 0 ],
+                "LeftAnkle": [ 580, 763, 63 ],
+                "RightAnkle": [ 510, 757, 86 ]
+            }
+        },
+        "ImportantJoints": [
+            "LeftWrist",
+            "RightWrist"
+        ]
+    },
+    {
+        "Name": "purple",
+        "JointPairRules": [
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftElbow"
+                },
+                "PossiblePositions": [ "Below", "BottomLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftElbow",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "Below", "BottomLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightElbow"
+                },
+                "PossiblePositions": [ "TopRight" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightElbow",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "TopRight" ]
+            }
+        ],
+        "RawCameraData": {
+            "Landmarks": {
+                "Nose": [ 575, 193, -69 ],
+                "LeftEye": [ 589, 183, -62 ],
+                "RightEye": [ 565, 182, -61 ],
+                "LeftEar": [ 602, 191, -24 ],
+                "RightEar": [ 552, 189, -21 ],
+                "LeftShoulder": [ 635, 276, -7 ],
+                "RightShoulder": [ 510, 256, -7 ],
+                "LeftElbow": [ 672, 363, 5 ],
+                "RightElbow": [ 426, 216, -24 ],
+                "LeftWrist": [ 694, 445, -3 ],
+                "RightWrist": [ 341, 169, -71 ],
+                "LeftHip": [ 610, 475, 0 ],
+                "RightHip": [ 531, 472, 0 ],
+                "LeftKnee": [ 602, 614, -14 ],
+                "RightKnee": [ 525, 609, 7 ],
+                "LeftAnkle": [ 603, 729, 56 ],
+                "RightAnkle": [ 524, 714, 85 ]
+            }
+        },
+        "ImportantJoints": [
+            "RightWrist",
+            "LeftElbow"
+        ]
+    },
+    {
+        "Name": "green",
+        "ImagePath": "./RawAssets/PoseImages/green.png",
+        "JointPairRules": [
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftElbow"
+                },
+                "PossiblePositions": [ "Left", "BottomLeft" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftElbow",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "Below" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightElbow"
+                },
+                "PossiblePositions": [ "Right", "BottomRight" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightElbow",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "Below" ]
+            }
+        ],
+        "RawCameraData": {
+            "Landmarks": {
+                "Nose": [ 596, 58, -74 ],
+                "LeftEye": [ 611, 45, -65 ],
+                "RightEye": [ 577, 47, -66 ],
+                "LeftEar": [ 627, 55, -16 ],
+                "RightEar": [ 559, 60, -22 ],
+                "LeftShoulder": [ 682, 160, 7 ],
+                "RightShoulder": [ 510, 168, -10 ],
+                "LeftElbow": [ 775, 243, 9 ],
+                "RightElbow": [ 423, 246, -47 ],
+                "LeftWrist": [ 787, 352, -39 ],
+                "RightWrist": [ 402, 354, -147 ],
+                "LeftHip": [ 655, 455, 3 ],
+                "RightHip": [ 542, 453, -2 ],
+                "LeftKnee": [ 648, 653, -7 ],
+                "RightKnee": [ 538, 639, 10 ],
+                "LeftAnkle": [ 632, 820, 90 ],
+                "RightAnkle": [ 535, 815, 100 ]
+            }
+        },
+        "ImportantJoints": [
+            "LeftWrist",
+            "RightWrist"
+        ]
+    },
+    {
+        "Name": "yellow",
+        "ImagePath": "./RawAssets/PoseImages/yellow.png",
+        "JointPairRules": [
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftShoulder",
+                    "SecondaryJoint": "LeftElbow"
+                },
+                "PossiblePositions": [ "Left" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "LeftElbow",
+                    "SecondaryJoint": "LeftWrist"
+                },
+                "PossiblePositions": [ "Above" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightShoulder",
+                    "SecondaryJoint": "RightElbow"
+                },
+                "PossiblePositions": [ "Right" ]
+            },
+            {
+                "JointPair": {
+                    "ReferenceJoint": "RightElbow",
+                    "SecondaryJoint": "RightWrist"
+                },
+                "PossiblePositions": [ "Above" ]
+            }
+        ],
+        "RawCameraData": {
+            "Landmarks": {
+                "Nose": [ 606, 82, -86 ],
+                "LeftEye": [ 622, 70, -75 ],
+                "RightEye": [ 590, 71, -75 ],
+                "LeftEar": [ 637, 82, -23 ],
+                "RightEar": [ 572, 84, -21 ],
+                "LeftShoulder": [ 686, 178, 0 ],
+                "RightShoulder": [ 521, 182, -1 ],
+                "LeftElbow": [ 799, 154, -14 ],
+                "RightElbow": [ 406, 127, -33 ],
+                "LeftWrist": [ 790, 37, -27 ],
+                "RightWrist": [ 408, 25, -94 ],
+                "LeftHip": [ 657, 462, -2 ],
+                "RightHip": [ 549, 463, 2 ],
+                "LeftKnee": [ 641, 656, -25 ],
+                "RightKnee": [ 548, 658, 8 ],
+                "LeftAnkle": [ 622, 818, 82 ],
+                "RightAnkle": [ 546, 817, 113 ]
+            }
+        },
+        "ImportantJoints": [
+            "LeftWrist",
+            "RightWrist"
+        ]
+    }
+]

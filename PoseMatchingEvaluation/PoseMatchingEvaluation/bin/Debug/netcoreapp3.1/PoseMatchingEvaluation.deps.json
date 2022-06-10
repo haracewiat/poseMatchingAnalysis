@@ -1,0 +1,391 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "PoseMatchingEvaluation/1.0.0": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Extensions.Math": "3.0.1",
+          "Accord.Math": "3.8.0",
+          "Extreme.Numerics": "8.1.6",
+          "Microsoft.Data.Analysis": "0.19.1",
+          "Newtonsoft.Json": "13.0.1",
+          "Unity3D.UnityEngine": "2018.3.5.1",
+          "UnityEngine": "1.0.0",
+          "UnityTechnologies.UnityEngine": "2020.2.2.1"
+        },
+        "runtime": {
+          "PoseMatchingEvaluation.dll": {}
+        }
+      },
+      "Accord/3.8.0": {
+        "runtime": {
+          "lib/netstandard2.0/Accord.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Extensions.Core/3.0.1": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/net45/Accord.Extensions.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Accord.Extensions.Math/3.0.1": {
+        "dependencies": {
+          "Accord.Extensions.Core": "3.0.1",
+          "Accord.Statistics": "3.0.2",
+          "DotImaging.Primitives2D": "2.5.3"
+        },
+        "runtime": {
+          "lib/net45/Accord.Extensions.Math.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Accord.Math/3.8.0": {
+        "dependencies": {
+          "Accord": "3.8.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Accord.Math.Core.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          },
+          "lib/netstandard2.0/Accord.Math.dll": {
+            "assemblyVersion": "3.8.0.0",
+            "fileVersion": "3.8.0.6134"
+          }
+        }
+      },
+      "Accord.Statistics/3.0.2": {
+        "dependencies": {
+          "Accord": "3.8.0",
+          "Accord.Math": "3.8.0"
+        },
+        "runtime": {
+          "lib/net45/Accord.Statistics.dll": {
+            "assemblyVersion": "3.0.2.0",
+            "fileVersion": "3.0.2.5339"
+          }
+        }
+      },
+      "Apache.Arrow/2.0.0": {
+        "dependencies": {
+          "System.Buffers": "4.5.0",
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Apache.Arrow.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "DotImaging.Primitives2D/2.5.3": {
+        "runtime": {
+          "lib/net45/DotImaging.Primitives2D.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
+      "Extreme.Numerics/8.1.6": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.5.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Extreme.Numerics.dll": {
+            "assemblyVersion": "8.1.6.0",
+            "fileVersion": "8.1.22095.0"
+          }
+        }
+      },
+      "Microsoft.Data.Analysis/0.19.1": {
+        "dependencies": {
+          "Apache.Arrow": "2.0.0",
+          "Microsoft.ML.DataView": "1.7.1",
+          "System.Buffers": "4.5.0",
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.7.0",
+          "System.Text.Encoding": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Data.Analysis.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "0.1900.122.15804"
+          }
+        }
+      },
+      "Microsoft.ML.DataView/1.7.1": {
+        "dependencies": {
+          "System.Collections.Immutable": "1.5.0",
+          "System.Memory": "4.5.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.ML.DataView.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.700.122.15804"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/2.0.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "Microsoft.Win32.Registry/4.5.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.5.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "Newtonsoft.Json/13.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.25517"
+          }
+        }
+      },
+      "System.Buffers/4.5.0": {},
+      "System.Collections.Immutable/1.5.0": {},
+      "System.Memory/4.5.3": {},
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.7.0": {},
+      "System.Security.AccessControl/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "System.Security.Principal.Windows": "4.5.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.5.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        }
+      },
+      "System.Text.Encoding/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {},
+      "Unity3D.UnityEngine/2018.3.5.1": {
+        "runtime": {
+          "lib/UnityEngine.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "UnityEngine/1.0.0": {},
+      "UnityTechnologies.UnityEngine/2020.2.2.1": {}
+    }
+  },
+  "libraries": {
+    "PoseMatchingEvaluation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Accord/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7kJrB570dO5ELim+2KWQNozuvWO9/BuZfZspdFy36fcWPNF2CEccblLuILeUlI8QJYd2DlBy0bfK8BlCx/uayA==",
+      "path": "accord/3.8.0",
+      "hashPath": "accord.3.8.0.nupkg.sha512"
+    },
+    "Accord.Extensions.Core/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M9Gbab1rmmCdm3DuQBWgCTq6IB7rAA95sfFCnv63CZrJeV/Qdj3MuFl5HJ2qMvDCzoL6kRV6ChJzwP00+6veOw==",
+      "path": "accord.extensions.core/3.0.1",
+      "hashPath": "accord.extensions.core.3.0.1.nupkg.sha512"
+    },
+    "Accord.Extensions.Math/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AcrjZ3o6qHy27WLbEM2NwlcNxROirjWA29AzplbNZohbMdConIXsxRgqznGIpNWXKsFWibZ0VQO1IZ8cD62SOQ==",
+      "path": "accord.extensions.math/3.0.1",
+      "hashPath": "accord.extensions.math.3.0.1.nupkg.sha512"
+    },
+    "Accord.Math/3.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K3dzeQjDIrwRnoTRoMOoIbul2Uc0B8cnEtdrSlirmIo37C+jVkmYpJzme/z4Kg99XR2Vj5W5TTNlhjn+AKR+8A==",
+      "path": "accord.math/3.8.0",
+      "hashPath": "accord.math.3.8.0.nupkg.sha512"
+    },
+    "Accord.Statistics/3.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GGfctxlk0DkhweBhWrVdRqpAPL3KmmLu8kzKqjMlmWl8rzItsu4qxXg3OxG5SmbAX2ZKqC1+YIMwarhDmu0M7Q==",
+      "path": "accord.statistics/3.0.2",
+      "hashPath": "accord.statistics.3.0.2.nupkg.sha512"
+    },
+    "Apache.Arrow/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR+F7g41WMJhr7WoZwwp05OrbYgM5Kmj3FwFXv1g0GgAYhEoCJz3L3qpllUWq9+X/rFKkFRZ2B8XcmsbaqGhrw==",
+      "path": "apache.arrow/2.0.0",
+      "hashPath": "apache.arrow.2.0.0.nupkg.sha512"
+    },
+    "DotImaging.Primitives2D/2.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UkZT6XU1QjQBeOCdvhQ7sGzgg7s7HgDl1T1ZM2qKEup3lVwFnBMyCsAvCNxGGH6DXL2cl/mbvwE50Nlqp9UeFA==",
+      "path": "dotimaging.primitives2d/2.5.3",
+      "hashPath": "dotimaging.primitives2d.2.5.3.nupkg.sha512"
+    },
+    "Extreme.Numerics/8.1.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1bujpB87HMwqwWgNRl8cdVEO65ImxDxEGGanUgh875K1+x/tePhxG6D15/zdA2axNgS6OUJLIP8bRHW3JlpHMg==",
+      "path": "extreme.numerics/8.1.6",
+      "hashPath": "extreme.numerics.8.1.6.nupkg.sha512"
+    },
+    "Microsoft.Data.Analysis/0.19.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TyYgGUeDqBQLIpY/SUshb3J+rqtN8XnOfLWIq8bhBp0yqtdgH3/ExlCQzGUaqcH9PzvOxkjMtAjZ3X4k+Mklyg==",
+      "path": "microsoft.data.analysis/0.19.1",
+      "hashPath": "microsoft.data.analysis.0.19.1.nupkg.sha512"
+    },
+    "Microsoft.ML.DataView/1.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j7BwSzNJUjxI8aSkzv4yCi0/kem1mYFVWiuLQcG0vcMEs3BNqvkunt+qdRmUMYuPY7/9AK22a70laAxjcJ2GGA==",
+      "path": "microsoft.ml.dataview/1.7.1",
+      "hashPath": "microsoft.ml.dataview.1.7.1.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VdLJOCXhZaEMY7Hm2GKiULmn7IEPFE4XC5LPSfBVCUIA8YLZVh846gtfBJalsPQF2PlzdD7ecX7DZEulJ402ZQ==",
+      "path": "microsoft.netcore.platforms/2.0.0",
+      "hashPath": "microsoft.netcore.platforms.2.0.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
+      "path": "microsoft.win32.registry/4.5.0",
+      "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "path": "newtonsoft.json/13.0.1",
+      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+    },
+    "System.Buffers/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "path": "system.buffers/4.5.0",
+      "hashPath": "system.buffers.4.5.0.nupkg.sha512"
+    },
+    "System.Collections.Immutable/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EXKiDFsChZW0RjrZ4FYHu9aW6+P4MCgEDCklsVseRfhoO0F+dXeMSsMRAlVXIo06kGJ/zv+2w1a2uc2+kxxSaQ==",
+      "path": "system.collections.immutable/1.5.0",
+      "hashPath": "system.collections.immutable.1.5.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IpU1lcHz8/09yDr9N+Juc7SCgNUz+RohkCQI+KsWKR67XxpFr8Z6c8t1iENCXZuRuNCc4HBwme/MDHNVCwyAKg==",
+      "path": "system.runtime.compilerservices.unsafe/4.7.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.7.0.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vW8Eoq0TMyz5vAG/6ce483x/CP83fgm4SJe5P8Tb1tZaobcvPrbMEL7rhH1DRdrYbbb6F0vq3OlzmK0Pkwks5A==",
+      "path": "system.security.accesscontrol/4.5.0",
+      "hashPath": "system.security.accesscontrol.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "path": "system.text.encoding/4.3.0",
+      "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    },
+    "Unity3D.UnityEngine/2018.3.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-63ZCYwGdoBCmsJCUI6dodSY+1TrU/7lTDmfF+492Z6nn8my30E3sb5HXLe7qm7MLvBIcKz9TCy114yu5VGycKA==",
+      "path": "unity3d.unityengine/2018.3.5.1",
+      "hashPath": "unity3d.unityengine.2018.3.5.1.nupkg.sha512"
+    },
+    "UnityEngine/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4e5TFELT89DzkWxYwvGWyMGU4+iaDoe1L04NtMFbTh7e3t3CRtyfxDqc37MIPPT3dcjnBUFyv4UEy8Ot2v6jNQ==",
+      "path": "unityengine/1.0.0",
+      "hashPath": "unityengine.1.0.0.nupkg.sha512"
+    },
+    "UnityTechnologies.UnityEngine/2020.2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vjpUwWH21UNVx8kMTQQOc5+phYQrQY3BBfzD5t+AgdXI50iOVSdU41srObh074NOq04T7fWjYBaFHD9vFqtB0Q==",
+      "path": "unitytechnologies.unityengine/2020.2.2.1",
+      "hashPath": "unitytechnologies.unityengine.2020.2.2.1.nupkg.sha512"
+    }
+  }
+}
